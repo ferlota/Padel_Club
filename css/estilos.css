@@ -1,0 +1,1757 @@
+@font-face{
+	font-family: 'playfair-display';
+	src:url('Fuentes/playfair-display/PlayfairDisplay-Regular.otf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Montserrat';
+	src:url('Fuentes/montserrat/Montserrat-Regular.otf') format('truetype');
+}
+
+
+@font-face{
+	font-family: 'Open Sans';
+	src:url('Fuentes/open-sans/OpenSans-Regular.otf') format('truetype');
+}
+
+body{
+	background-color: #DCDCDC;;
+}
+
+#imagenMarca{
+	position: absolute;
+	width:1024px;
+	height:220px;
+	right: 32px;
+	left:32px;
+	top:5px;
+	margin: auto;
+	border:solid;
+	box-shadow: 5px 2px 7px rgba(204,204,0,0.5);
+}
+
+figure{
+	display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.fig{
+	font-family: Open Sans;
+	font-size: 8px;
+}
+
+#botonera{
+	position:absolute;
+	width:1024px;
+	height:32px;
+	right: 32px;
+	left:32px;
+	top:232px;
+	margin: auto;
+}
+
+#listaBotones{
+	position: relative;
+	list-style: none; 	
+	width: 655px;
+	height: 30px;
+	margin: auto;
+	top:5px;
+	background-color: #DCDCDC;	
+}
+
+
+#listaBotones li{
+	float:left;
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100px;
+}
+
+#listaBotones li a{
+	display: block;
+	margin:0px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	border: none;
+	border-radius: .3em;
+	background-color: #1abc9c;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+  	line-height: 1.5;
+
+  	box-shadow: 5px 3px 7px rgba(0,179,89,0.5);
+}
+
+
+#listaBotones li a:hover {
+	background-color: #3e8e41;
+}
+
+.contenedor{
+	position:absolute;
+	width:1024px;
+	right:32px;
+	left:32px;
+	top:272px;
+	height:501px;
+	overflow:	none;
+	border:solid;
+	border-width: 1px;	
+	margin: auto;
+}
+
+#contenedorInicio{
+
+}
+
+#contenedorServicios{
+	background-image: url("../Imagenes/fondo3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1024px auto;
+}
+
+#contenedorTorneos{
+	background-image: url("../Imagenes/fondo4.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1024px auto;
+}
+
+#contenedorTarifas{
+	background-image: url("../Imagenes/fondo1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1024px auto;
+}
+
+#contenedorContacto{
+	background-image: url("../Imagenes/fondo2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1024px auto;
+}
+
+
+#contenedorSugerencia{
+	background-color: #333333;
+}
+
+
+
+#fotoClub{
+	position:absolute;
+	width:240px;
+	height:240px;
+	left:32px;
+	top:5px;
+	border:solid;
+	border-style: bold;
+	border-width: 1px;	
+}
+
+#fotoCancha1{
+	position:relative;
+	width:240px;
+	height:240px;
+	left:32px;
+	top:255px;
+	border:solid;
+	border-style: bold;
+	border-width: 1px;	
+}
+
+#descCanchas{
+	position:absolute;
+	width: 200px;
+	left: 5px;
+	top: 180px;
+	font-size: 12px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:white;
+
+}
+
+#fotoCancha2{
+	position:absolute;
+	width:240px;
+	height:240px;
+	left:740px;
+	top:5px;
+	border:solid;
+	border-style: bold;
+	border-width: 1px;	
+}
+
+#descCanchaSintetica{
+	position: absolute;
+	width: 180px;
+	left: 5px;
+	top:180px;
+	font-size: 12px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:white;
+}
+
+
+#escuelaPadel{
+	position:absolute;
+	width:240px;
+	height:240px;
+	left:740px;
+	top:255px;
+	border:solid;
+	border-style: bold;
+	border-width: 1px;	
+}
+
+#descEscuela{
+	position: absolute;
+	width:80px;
+	top:135px;
+	font-size: 20px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:#FFD700;
+	left: 150px;
+}
+
+#chicos1{
+	position:absolute;
+	top:150px;
+	font-size: 12px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:white;
+	left:5px;
+}
+
+#chicos2{
+	position:absolute;
+	top:165px;
+	font-size: 12px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:white;
+	left:5px;
+}
+
+#chicos3{
+	position:absolute;
+	top:190px;
+	font-size: 12px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:white;
+	left:5px;
+}
+
+#chicos4{
+	position:absolute;
+	top:205px;
+	font-size: 12px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:white;
+	left:5px;
+}
+
+#infoClub{
+	position:absolute;
+	width:400px;
+	height:360px;
+	left: 10px;
+	top:10px;
+	margin-left: 300px;
+	font-family: Open Sans;
+	font-size: 10px;
+	border:solid;
+	border-style: bold;
+	border-width: 1px;	
+	overflow: none;
+	background-color: #B0C4DE;
+
+}
+
+.subtitulo{
+	font-family: Open Sans;
+	font-size: 11px;
+	font-weight: bold;
+	padding-left: 2px;	
+}
+
+.info{
+	padding-left: 3px;
+	padding-right: 2px;
+	font-family: Open Sans;
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+#horariosClub{
+	position: relative;
+	width:330px;
+	height:110px;
+	top:120px;
+	left:340px;
+	font-family: Open Sans;
+	font-size:14px;
+	border:solid;
+	text-align: center;
+	background-color: #66b3ff;
+	align-content: center;
+}
+
+
+.horarioTitulo{
+	position: relative;
+	font-family: Montserrat;
+	font-size: 22px;
+}
+
+
+.infoHorarios{
+	font-weight: bold;
+}
+
+
+/*Fin Inicio*/
+
+
+/*Tarifas*/
+#tarifas{
+	position:absolute;
+	top:0px;
+	left:400px;
+	width:300px;
+	height: 25px;
+	font-family: Montserrat;
+	font-size:32px;
+	z-index: 2;
+	margin-top:0px;
+	text-shadow: 2px 1px red;
+}
+
+#tarifasRangoDias{
+	position:absolute;
+	top:100px;
+	left:64px;
+	width:200px;
+	font-family: Open Sans;
+	font-size:20px;
+	z-index: 2;	
+}
+
+#tablaTarifasLuVie{
+	position:absolute;
+	top:150px;
+	left:64px;
+	width:300px;
+	font-family: Open Sans;
+	font-size:20px;
+	text-align: center;
+	z-index: 2;	
+	background-color: -moz-radial-gradient(top, #DCDCDC , #808080);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#DCDCDC), to(#808080));
+
+	box-shadow: 5px 20px 7px rgba(0,0,0,0.5);
+}
+
+#tarifasRangoDiasFinesSemana{
+	position:absolute;
+	top:300px;
+	left:64px;
+	width:400px;
+	font-family: Open Sans;
+	font-size:20px;
+	z-index: 2;	
+}
+
+#tablaTarifasFinesSemana{
+	position:absolute;
+	top:350px;
+	left:64px;
+	width:300px;
+	font-family: Open Sans;
+	font-size:20px;
+	text-align: center;
+	z-index: 2;	
+	background-color: -moz-radial-gradient(top, #808080, #DCDCDC);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#808080), to(#DCDCDC));
+
+	box-shadow: 5px 20px 7px rgba(0,0,0,0.5);
+
+}
+/* Fin Tarifas*/
+
+#fondoContenedor{
+
+}
+
+#contactoAlberdi{
+	position: absolute;
+	top:100px;
+	left: 64px;
+	font-family: Open Sans;
+	font-size:14px;
+}
+
+#contactoBolanos{
+	position: absolute;
+	top:290px;
+	left: 64px;
+	font-family: Open Sans;
+	font-size:14px;
+}
+
+.Titulo{
+	font-size: 18px;
+	font-weight: bold;
+	width: auto;
+}
+
+.subtituloContacto{
+	font-size:14px;
+	font-weight: bold;
+	width: auto;
+}
+
+.infoContacto{
+	font-size:12px;
+	font-weight: normal;
+	width: auto;
+}
+
+
+#tituloContenedor{
+	position: absolute;
+	top:0px;
+	left:400px;
+	width:400px;
+	height: 25px;
+	font-family: Montserrat;
+	font-size:32px;
+	z-index: 2;
+	text-shadow: 2px 1px red;
+	margin-top:0px;
+}
+
+#tituloTorneos{
+	position: absolute;
+	top:5px;
+	left:400px;
+	width:400px;
+	height: 25px;
+	font-family: Montserrat;
+	font-size:32px;
+	z-index: 2;
+	text-shadow: 2px 1px red;
+	margin-top:0px;
+}
+
+
+.TituloServicio{
+	font-size:16px;
+}
+
+#serviciosAlberdi{
+	position: absolute;
+	top:90px;
+	left:48px;
+	height: 35px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	font-family: Montserrat;
+}
+
+#serviciosBolanos{
+	position: absolute;
+	top:90px;
+	left:330px;
+	height: 35px;
+	font-size:12px;
+	font-family: Montserrat;
+}
+
+#listaServicios{
+	position: absolute;
+	top:30px;
+	margin-top: 5px;
+	width: 150px;
+}
+
+#serviciosEspeciales{
+	position:absolute;
+	top:205px;
+	left:48px;
+	width:500px;
+	height: 280px;
+	font-family: Montserrat;
+	font-size:16px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	z-index: 2;
+}
+
+
+#serviciosEspecialesTitulo{
+	font-size:18px;
+	font-weight: bold;
+	color:#FF8C00;
+	text-shadow: 2px 1px black;
+}
+
+ul li {
+	position: relative;
+	font-size: 10px;
+	font-family: Open Sans;
+	top:0px;
+	margin-top: 0	px;
+	width:200px;
+}
+
+#kinesiologia{
+	position:relative;
+	top:0px;
+	float:left;
+	height: 35px;
+}
+
+#nutricion{
+	position:absolute;
+	height: 35px;
+	top: 50px;
+	left:280px;
+	width:130px;
+}
+
+#fotoKinesiologia{
+	position: absolute;
+	top:150px;
+	left:0px;
+}
+
+#fotoNutricion{
+	position: absolute;
+	top:150px;
+	left:280px;
+}
+
+#torneosAmericanos{
+	position: absolute;
+	color: #FFD700;
+	font-size: 24px;
+	font-family: Open Sans;
+	top: 80px;
+	margin-left: 10px;
+}
+
+#formTorneos{
+	position: absolute;
+	top: 145px;
+	margin-left: 310px;
+}
+
+#mes{
+	position: absolute;
+	color: #FFD700;
+	font-size: 32px;
+	font-family: Open Sans;
+	top:190px;
+	margin-left: 32px;	
+	margin-left: 410px;
+}
+
+#cronograma{
+	position: absolute;
+	color: white;
+	font-size: 26px;
+	font-family: Open Sans;
+	top:240px;
+	margin-left: 410px;
+
+}
+
+#diasTorneo{
+	position: absolute;
+	color: white;
+	font-size: 18px;
+	font-family: Open Sans;
+	top: 280px;
+	margin: 0 auto;
+	margin-left: 380px;
+
+}
+
+#redondo{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#torneosImg1{
+	position:absolute;
+	top:150px;
+	margin-left: 15px;
+	border:solid;
+	border-color:white;
+
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+   
+   box-shadow: 0 0 50px #ffffff;
+   -webkit-box-shadow: 0 0 30px #ffffff;
+   -moz-box-shadow:  0 0 30px #ffffff;
+}
+
+#torneosImg2{
+	position:absolute;
+	top:150px;
+	margin-left: 725px;
+	border:solid;
+	border-color:white;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+   box-shadow: 0 0 50px #ffffff;
+   -webkit-box-shadow: 0 0 30px #ffffff;
+   -moz-box-shadow:  0 0 30px #ffffff;
+}
+
+#musicaFondo{
+	position: absolute;
+	top:780px;
+	margin-left: 1045px;
+
+}
+
+#mesFormato{
+	color:white;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+
+#titleSugerencia{
+	position: absolute;
+	top:0px;
+	left:260px;
+	width:auto;
+	height: 25px;
+	font-family: Montserrat;
+	font-size:32px;
+	z-index: 2;
+	color:white;
+	text-shadow: 2px 1px red;
+	margin-top:0px;
+}
+
+#formSugerencias {
+    position: absolute;
+
+    /* Sólo para centrar el formulario a la página */
+    left: 300px;
+    top: 80px;
+    width: 400px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: white;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+.lblSugerencia {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: bold;
+}
+
+.inputSugerencia{
+	width: 400px;
+}
+
+
+input[type=submit]{
+	width: 200px;
+	height: 50px;
+	margin-left: 100px;
+	color:white;
+	background-color: #79ff4d;
+	font-family: open Sans;
+	font-weight: bold;
+}
+
+
+textarea{
+	width: 400px;
+	height: 100px;
+}
+
+
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px){
+
+	#imagenMarca{
+	position: absolute;
+	width:580px;
+	height:auto;
+}
+
+#imagenMarca img{
+	width:100%;
+	height: auto;
+}
+
+figure{
+	display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fig{
+	font-family: Open Sans;
+	font-size: 8px;
+}
+
+#botonera{
+	position:relative;
+	width:580px;
+	margin-top: 25px;
+	height:auto;
+	right: 0;
+	left:0;
+}
+
+#listaBotones{
+	position: relative;
+	width: 500px;
+	height: 30px;
+	margin:	0;
+	background-color: #DCDCDC;
+}
+
+#listaBotones li{
+	float:left;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	width: 78px;
+}
+
+
+.contenedor{
+	position:relative;
+	width:580px;
+	left:0px;
+	top:250px;
+	height:365px;
+}
+
+#contenedorServicios{
+	background-size: 580px auto;
+}
+
+#contenedorTorneos{
+	background-size: 580px auto;
+}
+
+#contenedorTarifas{
+	background-size: 580px auto;
+}
+
+#contenedorContacto{
+	background-size: 580px auto;
+}
+
+#tituloContenedor{
+
+	position: absolute;
+	top:0px;
+	left:200px;
+	width:250px;
+	height: 25px;
+	font-size:24px;
+}
+
+#tituloContenedor p{
+	width: 100%;
+	height: auto;
+}
+
+
+/*INICIO*/
+#contenedorInicio{
+	position:absolute;
+	width:580px;
+	right:32px;
+	left:15;
+	top:300px;
+	height:470px;
+	z-index: 0;
+	background-color: #778899;
+	overflow:none;
+	border:solid;
+	border-width: 1px;	
+	margin: auto;
+}
+
+#fotoClub{
+	width:120px;
+	height:120px;
+	left:5px;	
+	float: left;
+}
+
+#fotoClub img{
+	width: 100%;
+	height: auto;
+}
+
+
+#fotoCancha1{
+	position: relative;
+	width:120px;
+	height:120px;
+	left:5px;
+	float: left;
+	top:238px;
+}
+
+#fotoCancha1 img{
+	width: 100%;
+	height: auto;
+}
+
+
+#infoClub{
+	position:absolute;
+	width:315px;
+	height:350px;
+	left: 100px;
+	top:5px;
+	margin-left: 30px;
+	border:solid;
+}
+
+#fotoCancha2{
+	position: absolute;
+	width:120px;
+	height:120px;
+	left:455px;
+}
+
+#fotoCancha2 img{
+	width: 100%;
+	height: auto;
+}
+
+#escuelaPadel{
+	position: absolute;
+	width:120px;
+	height:120px;
+	left:455px;
+	top:238px;
+}
+
+#escuelaPadel img{
+	width:100%;
+	height: auto;
+}
+
+.subtitulo{
+	font-size: 9px;
+	margin-bottom: 1px;
+	padding-bottom: 1px;
+
+}
+
+.info{
+	font-size: 10px;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-bottom: 5px;
+}
+
+.info li{
+	font-size: 10px;
+}
+
+
+#descCanchas{
+	position:absolute;
+	width: 100px;
+	top: 90px;
+	font-size: 7px;
+}
+
+#descCanchaSintetica{
+	position: absolute;
+	width: 101px;
+	left: 2px;
+	top: 87px;
+	font-size: 7px;
+}
+
+#descEscuela{
+	position: absolute;
+	width:80px;
+	top:65px;
+	font-size: 10px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:#FFD700;
+	left: 75px;
+}
+
+#chicos1{
+	top:70px;
+	font-size: 7px;
+}
+
+#chicos2{
+	top:80px;
+	font-size: 7px;
+}
+
+#chicos3{
+	top:90px;
+	font-size: 7px;
+}
+
+#chicos4{
+	top:100px;
+	font-size: 7px;
+}
+
+
+#horariosClub{
+	position: absolute;
+	width:255px;
+	height:auto;
+	top:370px;
+	left:160px;
+	font-size:10px;
+}
+
+.horarioTitulo{
+	font-size: 18px;
+}
+
+
+/*SERVICIOS*/
+
+#serviciosAlberdi{
+	position: absolute;
+	top:70px;
+	left:12px;
+}
+
+#serviciosBolanos{
+	position: absolute;
+	top:70px;
+	left:230px;
+}
+
+#listaServicios{
+	position: absolute;
+	top:30px;
+	margin-top: 5px;
+	width: 150px;
+}
+
+#serviciosEspeciales{
+	position:absolute;
+	top:185px;
+	left:12px;
+}
+
+
+#serviciosEspecialesTitulo{
+	font-size:16px;
+	font-weight: bold;
+	color:#FF8C00;
+	text-shadow: 2px 1px black;
+}
+
+ul li {
+	position: relative;
+	font-size: 10px;
+	font-family: Open Sans;
+	top:0px;
+	margin-top: 0	px;
+	width:200px;
+}
+
+#kinesiologia{
+	position:relative;
+	top:0px;
+	float:left;
+	height: 35px;
+}
+
+#nutricion{
+	position:absolute;
+	height: 35px;
+	top: 50px;
+	left:230px;
+	width:130px;
+}
+
+#fotoKinesiologia{
+	position: absolute;
+	top:140px;
+	left:0px;
+	width:200px;
+	height: 100px;
+}
+
+#fotoNutricion{
+	position: absolute;
+	top:140px;
+	left:255px;
+	width: 100px;
+	height: 50px;
+}
+
+#fotoKinesiologia img{
+	width:100%;
+	height: auto;
+}
+
+#fotoNutricion img{
+	width: 100%;
+	height: auto;
+}
+
+.TituloServicio{
+	font-size:14px;
+}
+
+/*TORNEOS*/
+#torneosImg1{
+	width:140px;
+	height:180px;
+	top:170px;
+	margin-left: 15px;
+}
+
+#torneosImg1 img{
+	width: 100%;
+	height: auto;
+}
+
+#torneosImg2{
+	width:140px;
+	height:180px;
+	top:170px;
+	margin-left: 420px;
+}
+
+#torneosImg2 img{
+	width: 100%;
+	height: auto;
+}
+
+#torneosAmericanos{
+	font-size: 18px;
+	top: 70px;
+	margin-left: 10px;
+}
+
+#formTorneos{
+	top: 110px;
+	margin-left: 12px;
+}
+
+#mesFormato{
+	font-size: 12px;
+}
+
+
+#mes{
+	font-size: 20px;
+	top:150px;
+	margin-left: 210px;
+}
+
+#cronograma{
+	font-size: 18px;
+	top:180px;
+	margin-left: 210px;
+
+}
+
+#diasTorneo{
+	font-size: 16px;
+	font-family: Open Sans;
+	top: 220px;
+	margin: 0 auto;
+	margin-left: 190px;
+
+}
+
+
+/*CONTACTO*/
+.Titulo{
+	font-size: 14px;
+}
+
+.subtituloContacto{
+	font-size: 12px;
+}
+
+.infoContacto{
+	font-size: 10px;
+}
+
+#contactoAlberdi{
+		top:70px;
+}
+
+#contactoBolanos{
+	position: absolute;
+	top:220px;
+	font-size:14px;
+}
+
+/*TARIFAS*/
+#tarifasRangoDias{
+	top:70px;
+	left:32px;
+	width:100px;
+	font-size:16px;
+	width: 130px;
+}
+
+#tablaTarifasLuVie{
+	top:110px;
+	left:32px;
+	width:260px;
+	font-size:12px;
+}
+
+#tarifasRangoDiasFinesSemana{
+	top:200px;
+	left:32px;
+	width:250px;
+	font-size:16px;
+}
+
+#tablaTarifasFinesSemana{
+	top:240px;
+	left:32px;
+	width:260px;
+	font-family: Open Sans;
+	font-size:12px;
+}
+
+/*SUGERENCIAS*/
+#contenedorSugerencia{
+	position:absolute;
+	width:580px;
+	right:32px;
+	left:32px;
+	top:300px;
+}
+
+#titleSugerencia{
+	left:100px;
+	width:400px;
+	font-size:24px;
+}
+
+#formSugerencias{
+    /* Sólo para centrar el formulario a la página */
+    left: 80px;
+    top: 80px;
+    width: 400px;
+    height: 250px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: white;
+
+}
+
+
+.lblSugerencia {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    font-size: 70%;
+}
+
+input[type=submit]{
+	width: 20%;
+	height: auto;
+	margin-left: 35%;	
+	margin-top:-30px;
+}
+
+
+input[type=text]{
+
+}
+
+input[type=E-mail]{
+
+	}
+
+textarea{
+	width: 80%;
+	height: 35px;
+}
+
+}/* fin media 600 a 1023px */
+
+
+
+
+
+
+
+@media handheld, screen and (max-width: 599px) {
+
+#imagenMarca{
+	width:100%;
+	height: auto;
+	left:0%;
+	position: relative;
+}
+
+#imagenMarca img{
+	width:100%;
+	height: auto;
+}
+
+
+body{
+	align-content: center;
+}
+
+#botonera{
+	position:relative;
+	width:100%;
+	height:180px;
+	left: 0;
+	right: 5%;
+	top: 10px;
+	border:solid;
+	align-content: center;
+}
+
+#listaBotones{
+	position: absolute;
+	list-style: none; 	
+	height: 95%;
+	width: 100%;
+	margin: 0px;
+	padding-left: 0;
+	top:1px;
+	left: 0px;
+	background-color: #DCDCDC;	
+	float:none;
+	align-content: center;
+}
+
+
+#listaBotones li{
+	float:none;
+	display: block;
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	left: 0px;
+	margin-left: 0px;
+	width: 100%;
+	height: auto;
+}
+
+#listaBotones li a{
+	margin:4px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 100%;
+	border: none;
+	border-radius: .3em;
+	background-color: #1abc9c;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+  	line-height: 1.5;
+
+  	box-shadow: 5px 3px 7px rgba(0,179,89,0.5);
+}
+
+
+.contenedor{
+	position:relative;
+	height:250px;
+	width:100%;
+	left:0px;
+	top:20px;
+	padding: 0px;
+}
+
+
+#contenedorInicio{
+	background-image: url("../Imagenes/fondo5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 300px;
+	top:20px;
+
+}
+
+#contenedorServicios{
+	background-image: url("../Imagenes/fondo5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#contenedorTorneos{
+	background-image: url("../Imagenes/fondo5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#contenedorTarifas{
+	background-image: url("../Imagenes/fondo5.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-origin: 50px 0px;
+	background-size: 100% 100%;
+}
+
+#contenedorContacto{
+	background-image: url("../Imagenes/fondo5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#tituloContenedor{
+	position: absolute;
+	left: 7%;
+	right:20%;
+	text-align: center;
+	top:-4vw;
+	width:auto;
+	height: 20px;
+	font-size:5vw;
+	width: 100%;
+	padding-bottom: 0px;
+}
+
+#tituloContenedor p{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+
+
+#fotoClub,#fotoCancha1,#fotoCancha2,#escuelaPadel{
+	display:none;
+}
+
+
+#infoClub{
+	position:absolute;
+	width:95%;
+	height:auto;
+	left: 2%;
+	top:15px;
+	margin-left: 0px;
+	border:solid;
+}
+
+.subtitulo{
+	font-size: 1.9vw;
+	margin-bottom: 0.3px;
+	padding-bottom: 0.3px;
+
+}
+
+.info{
+	font-size: 90%;
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-bottom: 2px;
+}
+
+.info ul li{
+	font-size: 95%;
+	width:100%;
+	margin-left: 0;
+	left: 0;
+}
+
+
+#descCanchas{
+	position:absolute;
+	width: 100px;
+	top: 90px;
+	font-size: 7px;
+}
+
+#descCanchaSintetica{
+	position: absolute;
+	width: 101px;
+	left: 2px;
+	top: 87px;
+	font-size: 7px;
+}
+
+#descEscuela{
+	position: absolute;
+	width:80px;
+	top:65px;
+	font-size: 10px;
+	font-family: Open Sans;
+	font-weight: 14px;
+	color:#FFD700;
+	left: 75px;
+}
+
+#chicos1{
+	top:70px;
+	font-size: 7px;
+}
+
+#chicos2{
+	top:80px;
+	font-size: 7px;
+}
+
+#chicos3{
+	top:90px;
+	font-size: 7px;
+}
+
+#chicos4{
+	top:100px;
+	font-size: 7px;
+}
+
+
+#horariosClub{
+	position: relative;
+	width:200px;
+	height:auto;
+	top:100%;
+	left:20%;
+	font-size:1.5vw;
+}
+
+.horarioTitulo{
+	font-size: 18px;
+}
+
+
+
+
+/*SERVICIOS*/
+
+#serviciosAlberdi{
+	position: absolute;
+	top:10%;
+	left:2%;
+	font-size: 4.5vw;
+}
+
+#serviciosBolanos{
+	position: absolute;
+	top:10%;
+	left:60%;
+	font-size: 4.5vw;
+}
+
+#listaServicios{
+	position: absolute;
+	top:80%;
+	margin-top: 10px;
+	width: 130px;
+	left: 0;
+	margin: 0;
+}
+
+#serviciosEspeciales{
+	position:absolute;
+	top:45%;
+	left:0%;
+	width: 85%;
+	height:130px;
+}
+
+
+#serviciosEspecialesTitulo{
+	font-size:3.2vw;
+	font-weight: bold;
+	color:#FF8C00;
+	text-shadow: 1px 1px black;
+	margin-left: 2%;
+}
+
+#listaServicios li{
+	position: relative;
+	font-size: 1.9vw;
+	top:10px;
+	margin-top: 0px;
+	left: -25px;
+	right:80%;
+	margin-left: 0px;
+	width: 120%;
+}
+
+#kinesiologia{
+	position:absolute;
+	top:30px;
+	float:left;
+	height: 35px;
+	width: 100px;
+	font-size: 2vw;
+	left: 2%;
+}
+
+#nutricion{
+	position:absolute;
+	height: 35px;
+	top: 30px;
+	left:70%;
+	width:100px;
+}
+
+#fotoKinesiologia,#fotoNutricion,#fotoKinesiologia{
+	display: none;
+}
+
+
+.TituloServicio{
+	font-size:3vw;
+}
+
+/*TORNEOS*/
+#torneosImg1{
+display: none;
+}
+
+#torneosImg2{
+display: none;
+}
+
+
+#torneosAmericanos{
+	font-size: 3vw;
+	top: 40px;
+	color:red;
+	margin-left: 10px;
+	font-weight: bold;
+	color:#FF8C00;
+	text-shadow: 1px 1px black;
+}
+
+#formTorneos{
+	top: 70px;
+	color:black;
+	margin-left: 0px;
+	width: 80%;
+	left: 10px;
+}
+
+#mesFormato{
+	font-size: 3vw;
+	color:black;
+}
+
+
+#mes{
+	font-size: 3vw;
+	top:40%;
+	margin-left: 2%;
+	color:black;
+	font-weight: bold;
+}
+
+#cronograma{
+	font-size: 2.7vw;
+	margin-left: 2%;
+	color: black;
+	top:50%;
+
+}
+
+#diasTorneo{
+	font-size: 2vw;
+	font-family: Open Sans;
+	top: 55%;
+	color:black;
+	margin-left: 2%;
+
+}
+
+input[type=button]{
+	width: 16%;
+	font-size: 2.6vw;
+}
+
+#formTorneos input[type=text]{
+	width: 30%;
+	height: auto;
+}
+
+/*TARIFAS*/
+
+#tarifasRangoDias{
+	top:20px;
+	left:20%;
+	width:50%;
+	height: 5%;
+	font-size:3.7vw;
+	margin: 0 auto;
+	padding-bottom: 3%;
+
+}
+
+#tablaTarifasLuVie{
+	top:70px;
+	left:20%;
+	width:70%;
+	height: auto;
+	font-size:62%;
+	box-shadow: none;
+}
+
+#tarifasRangoDiasFinesSemana{
+	top:53%;
+	width:70%;
+	font-size:3.7vw;
+	height: 10%;
+	left:20%;
+}
+
+#tablaTarifasFinesSemana{
+	top:180px;
+	left:20%;
+	width:70%;
+	font-size:62%;
+	box-shadow: none;
+}
+
+/*CONTACTO*/
+.Titulo{
+	font-size: 3vw;
+	width: 200px;
+}
+
+.subtituloContacto{
+	font-size: 60%;
+}
+
+.infoContacto{
+	font-size: 90%;
+}
+
+#contactoAlberdi{
+	position: absolute;
+	top:18%;
+	left: 2%;
+	right: 40%;
+}
+
+#contactoBolanos{
+	position: absolute;	
+	top:60%;
+	left: 2%;
+	font-size:14px;
+}
+
+
+/*SUGERENCIAS*/
+#titleSugerencia{
+	left:25%;
+	width:100%;
+	font-size:3.0vw;
+	top:-10px;
+}
+
+#formSugerencias{
+    /* Sólo para centrar el formulario a la página */
+    left: 15%;
+    top: 10%;
+    width: 70%;
+    height: 75%;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: white;
+    font-size: 2vw;
+
+}
+
+.lblSugerencia {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+input[type=submit]{
+	position: absolute;
+	width: 15%;
+	height: auto;
+	margin-left: 80%;
+	font-size: 2vw;
+	margin-top:-12%;
+	height: auto;
+}
+
+
+input[type=text]{
+ 	width: 75%;
+}
+
+input[type=E-mail]{
+	width:50%;
+
+	}
+
+textarea{
+	width: 75%;
+	height: 25px;
+}
+
+}/* fin media menor a 600/
